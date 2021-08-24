@@ -13,8 +13,7 @@ function sendEmail(){
         Name: 'Name',
         From : "Email",
         Body : "Message"
-    }).then(
-      message => alert("Your Message Has Been Sent Someone Will get back to ASAP"))
+    }).then(message => alert("Your Message Has Been Sent")
     );
     
 } 
