@@ -29,7 +29,16 @@ h5{
 .form1{
     box-shadow: 2px 1px 1px darkgray;
     border-radius: 5px;
+    max-width: 50%;
+    margin: 0 auto;
+    
 }
+@media only screen and (max-width: 700px) {
+    .form1 {
+        max-width: 100%;
+    }
+  }
+
 
 /*--------------Footer Styles------------------*/
 .footercontent1{
