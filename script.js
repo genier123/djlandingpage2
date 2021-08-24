@@ -4,9 +4,6 @@
 
 function sendEmail(){
 
-        //Host : "smtp.gmail.com",
-        //Username : "djwatelse",
-        //Password : "Monday5678",
         Email.send({
             SecureToken : "47b1a2ef-1808-4569-bd17-944a4559a55a",
             To : 'djwatelse@gmail.com',
@@ -16,5 +13,7 @@ function sendEmail(){
         }).then(
           message => alert(message)
         );
+        
+    }
 
 //47b1a2ef-1808-4569-bd17-944a4559a55a
