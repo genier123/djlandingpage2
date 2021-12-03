@@ -86,7 +86,9 @@ border-radius: 5px;
 }
 .button {
     display: inline-block;
-    padding: 15px 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
     font-size: 14px;
     cursor: pointer;
     text-align: center;
@@ -148,4 +150,20 @@ div.scrollmenu {
   }
   h1{
       text-align: center;
+  }
+
+
+.beatPacksDisplay1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start space-evenly;
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+    .beatPacksDisplay1 {
+        display: flex;
+        flex-direction:column;
+    }
   }
